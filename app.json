@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "ekyc-onboarding",
+    "slug": "ekyc-onboarding",
+    "version": "1.0.0",
+    "description": "A fullstack eKYC onboarding platform with React Native mobile app and Node.js backend API",
+    "sdkVersion": "50.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "ios": {
+      "bundleIdentifier": "y"
+    }
+  }
+}
