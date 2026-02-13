@@ -1,16 +1,39 @@
 {
   "expo": {
-    "name": "ekyc-onboarding",
+    "name": "eKYC Onboarding",
     "slug": "ekyc-onboarding",
     "version": "1.0.0",
-    "description": "A fullstack eKYC onboarding platform with React Native mobile app and Node.js backend API",
-    "sdkVersion": "50.0.0",
-    "platforms": [
-      "ios",
-      "android"
+    "orientation": "portrait",
+    //"platforms": ["ios", "android"],
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
     ],
     "ios": {
-      "bundleIdentifier": "y"
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ekyc.onboarding"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ekyc.onboarding"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "apiUrl": "https://4eae5abc15fd78.lhr.life",
+      "eas": {
+        "projectId": "snack-demo"
+      }
     }
   }
 }
