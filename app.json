@@ -4,36 +4,29 @@
     "slug": "ekyc-onboarding",
     "version": "1.0.0",
     "orientation": "portrait",
-    //"platforms": ["ios", "android"],
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.ekyc.onboarding"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.ekyc.onboarding"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      }
     },
     "extra": {
-      "apiUrl": "https://4eae5abc15fd78.lhr.life",
-      "eas": {
-        "projectId": "snack-demo"
-      }
+      "apiUrl": "https://4eae5abc15fd78.lhr.life"
     }
   }
 }
